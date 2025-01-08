@@ -1,0 +1,49 @@
+[
+    {
+        "@id": "http://schema.org/PostalAddress"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/77a726c0-d3a5-3124-972e-d1c89319a2cd",
+        "https://www.datatourisme.fr/ontology/core#hasAddressCity": [
+            {
+                "@id": "https://www.datatourisme.fr/resource/core#55463"
+            }
+        ],
+        "http://schema.org/addressLocality": [
+            {
+                "@value": "Saint-Mihiel"
+            }
+        ],
+        "http://schema.org/postalCode": [
+            {
+                "@value": "55300"
+            }
+        ],
+        "http://schema.org/streetAddress": [
+            {
+                "@value": "28 Rue Notre-Dame"
+            },
+            {
+                "@value": "Bar le Saint-Mac !"
+            }
+        ],
+        "@type": [
+            "https://www.datatourisme.fr/ontology/core#PostalAddress",
+            "http://schema.org/PostalAddress"
+        ]
+    },
+    {
+        "@id": "https://data.datatourisme.fr/d342d66a-9ceb-307f-bd1d-d0e19d22dfeb",
+        "http://schema.org/address": [
+            {
+                "@id": "https://data.datatourisme.fr/77a726c0-d3a5-3124-972e-d1c89319a2cd"
+            }
+        ]
+    },
+    {
+        "@id": "https://www.datatourisme.fr/ontology/core#PostalAddress"
+    },
+    {
+        "@id": "https://www.datatourisme.fr/resource/core#55463"
+    }
+]

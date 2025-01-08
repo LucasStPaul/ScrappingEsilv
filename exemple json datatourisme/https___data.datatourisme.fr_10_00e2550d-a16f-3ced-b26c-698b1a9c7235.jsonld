@@ -1,0 +1,199 @@
+[
+    {
+        "@id": "http://schema.org/Event"
+    },
+    {
+        "@id": "http://schema.org/SportsEvent"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/10/00e2550d-a16f-3ced-b26c-698b1a9c7235",
+        "http://www.w3.org/2002/07/owl#topObjectProperty": [
+            {
+                "@id": "https://data.datatourisme.fr/7959994e-01f2-32db-8064-d652153fdc35"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#hasBeenCreatedBy": [
+            {
+                "@id": "https://data.datatourisme.fr/10/b0b183c2-07f4-3f0c-8a7d-c63b2604f5cc"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#hasBeenPublishedBy": [
+            {
+                "@id": "https://data.datatourisme.fr/39f8abf8-1828-3176-97f2-cfb47d18656a"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#hasContact": [
+            {
+                "@id": "https://data.datatourisme.fr/791996ee-69f6-3e01-ac67-627746612a6d"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#hasDescription": [
+            {
+                "@id": "https://data.datatourisme.fr/7959994e-01f2-32db-8064-d652153fdc35"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#hasTranslatedProperty": [
+            {
+                "@id": "https://data.datatourisme.fr/1d1a6df4-a328-356a-bbc6-334662c0d555"
+            },
+            {
+                "@id": "https://data.datatourisme.fr/93be7cfa-8316-3fdf-8575-9f280d58a0d2"
+            },
+            {
+                "@id": "https://data.datatourisme.fr/19c9cbdc-1656-32f4-bfc9-d2501d234832"
+            },
+            {
+                "@id": "https://data.datatourisme.fr/1c428510-fa83-3ce7-b8de-80e0dc4c1423"
+            },
+            {
+                "@id": "https://data.datatourisme.fr/27eaf908-054f-33be-8e4d-83f991c53f31"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#isLocatedAt": [
+            {
+                "@id": "https://data.datatourisme.fr/d342d66a-9ceb-307f-bd1d-d0e19d22dfeb"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#lastUpdate": [
+            {
+                "@value": "2024-12-22",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#lastUpdateDatatourisme": [
+            {
+                "@value": "2024-12-23T05:05:09.893Z",
+                "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#takesPlaceAt": [
+            {
+                "@id": "https://data.datatourisme.fr/c26625d2-1554-3ce1-86df-5415254e306e"
+            }
+        ],
+        "https://www.datatourisme.fr/resource/metadata#fingerprint": [
+            {
+                "@value": "fe9f0124d9aae3a77b0deda0e6d0c79b"
+            }
+        ],
+        "https://www.datatourisme.fr/resource/metadata#hasFluxIdentifier": [
+            {
+                "@value": "190",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            }
+        ],
+        "https://www.datatourisme.fr/resource/metadata#hasOrganizationIdentifier": [
+            {
+                "@value": "10",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            }
+        ],
+        "https://www.datatourisme.fr/resource/metadata#sourceChecksum": [
+            {
+                "@value": "227e1dc87cc9f90d111981995a9ea55b"
+            }
+        ],
+        "http://schema.org/endDate": [
+            {
+                "@value": "2025-01-26",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "http://schema.org/startDate": [
+            {
+                "@value": "2025-01-26",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "@type": [
+            "https://www.datatourisme.fr/ontology/core#EntertainmentAndEvent",
+            "https://www.datatourisme.fr/ontology/core#PointOfInterest",
+            "https://www.datatourisme.fr/ontology/core#Game",
+            "https://www.datatourisme.fr/ontology/core#SportsEvent",
+            "http://schema.org/Event",
+            "http://schema.org/SportsEvent"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@value": "Concours en individuel organisé par la Presse Saint-Mihiel. Un lot à chaque participant.",
+                "@language": "fr"
+            },
+            {
+                "@value": "Einzelwettbewerb, organisiert von der Presse Saint-Mihiel. Ein Preis für jeden Teilnehmer.",
+                "@language": "de"
+            },
+            {
+                "@value": "Individual competition organized by Presse Saint-Mihiel. A prize for each participant.",
+                "@language": "en"
+            },
+            {
+                "@value": "Individuele wedstrijd georganiseerd door Presse Saint-Mihiel. Een prijs voor elke deelnemer.",
+                "@language": "nl"
+            },
+            {
+                "@value": "Concorso individuale organizzato dalla Presse Saint-Mihiel. Un premio per ogni partecipante.",
+                "@language": "it"
+            },
+            {
+                "@value": "Concurso individual organizado por Presse Saint-Mihiel. Un premio para cada participante.",
+                "@language": "es"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@value": "CONCOURS DE BELOTE",
+                "@language": "fr"
+            }
+        ],
+        "http://purl.org/dc/elements/1.1/identifier": [
+            {
+                "@value": "837005272"
+            }
+        ]
+    },
+    {
+        "@id": "https://data.datatourisme.fr/10/b0b183c2-07f4-3f0c-8a7d-c63b2604f5cc"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/19c9cbdc-1656-32f4-bfc9-d2501d234832"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/1c428510-fa83-3ce7-b8de-80e0dc4c1423"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/1d1a6df4-a328-356a-bbc6-334662c0d555"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/27eaf908-054f-33be-8e4d-83f991c53f31"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/39f8abf8-1828-3176-97f2-cfb47d18656a"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/791996ee-69f6-3e01-ac67-627746612a6d"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/7959994e-01f2-32db-8064-d652153fdc35"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/93be7cfa-8316-3fdf-8575-9f280d58a0d2"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/c26625d2-1554-3ce1-86df-5415254e306e"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/d342d66a-9ceb-307f-bd1d-d0e19d22dfeb"
+    },
+    {
+        "@id": "https://www.datatourisme.fr/ontology/core#EntertainmentAndEvent"
+    },
+    {
+        "@id": "https://www.datatourisme.fr/ontology/core#Game"
+    },
+    {
+        "@id": "https://www.datatourisme.fr/ontology/core#PointOfInterest"
+    },
+    {
+        "@id": "https://www.datatourisme.fr/ontology/core#SportsEvent"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "@id": "http://schema.org/Place"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/0f4d9c80-3da0-3eed-84bd-7042e2677ec2"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/10/00e2550d-a16f-3ced-b26c-698b1a9c7235",
+        "https://www.datatourisme.fr/ontology/core#isLocatedAt": [
+            {
+                "@id": "https://data.datatourisme.fr/d342d66a-9ceb-307f-bd1d-d0e19d22dfeb"
+            }
+        ]
+    },
+    {
+        "@id": "https://data.datatourisme.fr/77a726c0-d3a5-3124-972e-d1c89319a2cd"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/814276a7-31b6-3adb-846e-87efce068d09"
+    },
+    {
+        "@id": "https://data.datatourisme.fr/d342d66a-9ceb-307f-bd1d-d0e19d22dfeb",
+        "http://schema.org/openingHoursSpecification": [
+            {
+                "@id": "https://data.datatourisme.fr/0f4d9c80-3da0-3eed-84bd-7042e2677ec2"
+            }
+        ],
+        "https://www.datatourisme.fr/ontology/core#petsAllowed": [
+            {
+                "@value": false
+            }
+        ],
+        "http://schema.org/geo": [
+            {
+                "@id": "https://data.datatourisme.fr/814276a7-31b6-3adb-846e-87efce068d09"
+            }
+        ],
+        "http://schema.org/address": [
+            {
+                "@id": "https://data.datatourisme.fr/77a726c0-d3a5-3124-972e-d1c89319a2cd"
+            }
+        ],
+        "@type": [
+            "https://www.datatourisme.fr/ontology/core#Place",
+            "http://schema.org/Place"
+        ]
+    },
+    {
+        "@id": "https://www.datatourisme.fr/ontology/core#Place"
+    }
+]
